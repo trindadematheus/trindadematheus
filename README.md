@@ -1,3 +1,3 @@
-[![Twitter Badge](https://img.shields.io/badge/-@trnddev-58a6ff?style=flat-square&labelColor=58a6ff&logo=twitter&logoColor=white&link=https://twitter.com/trnddev)](https://twitter.com/trnddev) 
-[![Linkedin Badge](https://img.shields.io/badge/-Matheus%20Trindade-58a6ff?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/trindadematheus/)](https://www.linkedin.com/in/trindadematheus/) 
-[![Gmail Badge](https://img.shields.io/badge/-trindadematheus27@gmail.com-58a6ff?style=flat-square&logo=Gmail&logoColor=white&link=mailto:trindadematheus27@gmail.com)](mailto:trindadematheus27@gmail.com)
+[![Twitter Badge](https://img.shields.io/badge/-@trnddev-58a6ff?style=flat-square&labelColor=58a6ff&logo=twitter&logoColor=black&link=https://twitter.com/trnddev)](https://twitter.com/trnddev) 
+[![Linkedin Badge](https://img.shields.io/badge/-Matheus%20Trindade-58a6ff?style=flat-square&logo=Linkedin&logoColor=black&link=https://www.linkedin.com/in/trindadematheus/)](https://www.linkedin.com/in/trindadematheus/) 
+[![Gmail Badge](https://img.shields.io/badge/-trindadematheus27@gmail.com-58a6ff?style=flat-square&logo=Gmail&logoColor=black&link=mailto:trindadematheus27@gmail.com)](mailto:trindadematheus27@gmail.com)
