@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const Wrapper = styled.div`
   max-width: 600px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 40px;
   padding: 0px 20px;
 
   .name {
@@ -43,6 +43,11 @@ export const Wrapper = styled.div`
   }
 
   .tabbar {
+    background-color: rgb(10, 12, 15, 0.4);
+    backdrop-filter: blur(15px);
+    position: sticky;
+    top: 0;
+    z-index: 1;
     margin-top: 20px;
     border-bottom: 4px solid #12161C;
 

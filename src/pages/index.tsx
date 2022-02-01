@@ -5,7 +5,6 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import works from '../data/works';
 import * as S from '../styles/home'
-import Menu from '../components/Menu';
 import courses from '../data/courses';
 
 export default function Home() {
@@ -13,11 +12,10 @@ export default function Home() {
 
   return (
     <>
-      <Menu />
       <S.Wrapper>
         <div className="featured">
           <h1 className="name">Matheus Trindade</h1>
-          <p className="description">Desenvolvedor Front-End há quase 3 anos, utilizando principalmente React e React Native. Além do código, gosto de estudar sobre UI/UX e desenvolver interfaces no Figma.</p>
+          <p className="description">Desenvolvo front-end há três anos, utilizando principalmente React e React Native. Além de código, tenho interesse em estudar conceitos de UI/UX e desenvolver interfaces utilizando o Figma.</p>
         </div>
 
         <div className="social">
