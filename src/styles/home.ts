@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
   max-width: 600px;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 10px;
   padding: 0px 20px;
 
   .name {
@@ -26,6 +26,12 @@ export const Wrapper = styled.div`
       padding: 4px;
       border-radius: 4px;
       cursor: pointer;
+      color: #eee;
+      transition: all 0.6s;
+
+      :hover {
+        color: #24BE87;
+      }
     }
   }
 
@@ -35,4 +41,37 @@ export const Wrapper = styled.div`
     border-width: 2px;
     margin: 20px 0px;
   }
+
+  .tabbar {
+    margin-top: 20px;
+    border-bottom: 4px solid #12161C;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+`
+
+interface TabItemProps {
+  active: boolean;
+}
+
+export const TabItem = styled.li<TabItemProps>`
+  color: #bbb;
+  list-style: none;
+  padding: 14px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+
+  :hover {
+    color: white;
+  }
+
+  ${props => props.active && css`
+    color: #24BE87;
+
+    :hover {
+      color: #24BE87;
+    }
+  `}
 `
