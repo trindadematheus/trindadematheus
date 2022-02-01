@@ -8,16 +8,31 @@ export const Wrapper = styled.div`
 
   .name {
     color: white;
+    margin-bottom: 10px;
   }
 
   .description{
     color: #A0A2A4;
-    padding-bottom: 10px;
-    border-bottom: 4px solid #12161C;
+    margin-bottom: 20px;
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .icon {
+      background-color: #12161C;
+      padding: 4px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
   }
 
   hr {
     border-color: #12161C;
-    margin: 40px 0px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px 0px;
   }
 `
