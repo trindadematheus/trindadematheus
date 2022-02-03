@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.a`
   background-color: #12161c;
   padding: 20px;
   border-radius: 6px;
   cursor: pointer;
+  text-decoration: none;
 
   transition: all 400ms;
 

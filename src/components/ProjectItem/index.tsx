@@ -14,7 +14,7 @@ interface ProjectItemProps {
 export default function ProjectItem({ project }: ProjectItemProps) {
   return (
     <>
-      <S.Container>
+      <S.Container href={project.link} target="_blank" >
         <h3 className="title">{project.title}</h3>
         <p className="desc">{project.desc}</p>
 
