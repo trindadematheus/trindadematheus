@@ -55,6 +55,13 @@ export const Wrapper = styled.div`
     align-items: center;
     gap: 40px;
   }
+
+  @media (max-width: 768px) {
+    .tabbar {
+      justify-content: space-between;
+      gap: 0px;
+    }
+  }
 `
 
 interface TabItemProps {
