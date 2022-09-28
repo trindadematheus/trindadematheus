@@ -1,34 +1,20 @@
 export default [
   {
-    title: 'dodger',
-    desc: 'Hide WhatsApp Web messages for the curious',
-    link: 'https://github.com/trindadematheus/dodger',
-    tags: [
-      'chrome-extension'
-    ]
+    title: "depnot",
+    desc: "Remove all dependencies with match name",
+    link: "https://github.com/trindadematheus/depnot",
+    tags: ["node-lib"],
   },
   {
-    title: 'loterias-api',
-    desc: 'API de resultados da loteria brasileira',
-    link: 'https://github.com/trindadematheus/loterias-api',
-    tags: [
-      'api'
-    ]
+    title: "react-developer",
+    desc: "developer profile on your project",
+    link: "https://react-developer-sigma.vercel.app/",
+    tags: ["react-lib"],
   },
   {
-    title: 'google-sheet-api',
-    desc: 'API de integração com o Google Sheets',
-    link: 'https://github.com/trindadematheus/google-sheet-api',
-    tags: [
-      'api'
-    ]
+    title: "portus",
+    desc: "3D Docker containers viewer",
+    link: "https://github.com/trindadematheus/portus",
+    tags: ["desktop-app"],
   },
-  {
-    title: 'hetter',
-    desc: ' A simple route manager for Next.js API Routes',
-    link: 'https://github.com/trindadematheus/hetter',
-    tags: [
-      'lib'
-    ]
-  },
-]
+];

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Head from "next/head";
 import { AppProps } from "next/app";
 
@@ -15,9 +15,12 @@ export default function App({ Component, pageProps }: AppProps) {
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;800&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;800&display=swap"
+          rel="stylesheet"
+        />
 
-        <title>Matheus Trindade 👨‍💻</title>
+        <title>Matheus Trindade</title>
       </Head>
       <Component {...pageProps} />
       <GlobalStyles />
