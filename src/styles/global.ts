@@ -1,19 +1,19 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   body, input, textarea, button {
-    font-weight: 300;
+    font-weight: 200;
   }
 
   h1,h2,h3,h4,h5,h6,strong {
-    font-weight: 800;
+    font-weight: 600;
   }
 
   body {
