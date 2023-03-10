@@ -10,11 +10,11 @@ function Home() {
           <S.About>
             <h1 className="name">Matheus Trindade</h1>
             <p className="description">
-              Software developer at <b>ioasys</b>
+              Frontend developer at <b>Compass UOL</b>
             </p>
 
             <p className="resume">
-              Frontend developer at Compass UOL
+              React.js | React Native | Next.js
             </p>
 
             <div className="separator" />
