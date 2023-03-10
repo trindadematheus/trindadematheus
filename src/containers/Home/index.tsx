@@ -14,7 +14,7 @@ function Home() {
             </p>
 
             <p className="resume">
-              Desenvolvedor de software há 4 anos, focado em React.
+              Frontend developer at Compass UOL
             </p>
 
             <div className="separator" />
