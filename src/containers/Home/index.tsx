@@ -13,9 +13,7 @@ function Home() {
               Frontend developer at <b>Compass UOL</b>
             </p>
 
-            <p className="resume">
-              React.js | React Native | Next.js
-            </p>
+            <p className="resume">React.js | React Native | Next.js</p>
 
             <div className="separator" />
           </S.About>

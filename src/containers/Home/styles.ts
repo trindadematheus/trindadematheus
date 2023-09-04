@@ -65,6 +65,7 @@ export const Social = styled.div`
 
     display: flex;
     align-items: center;
+    flex-wrap: wrap-reverse;
     gap: 14px;
 
     .icon {
