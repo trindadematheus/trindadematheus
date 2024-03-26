@@ -1,17 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 0px 20px;
+  padding: 40px 20px;
 `;
 
 export const Container = styled.div`
   max-width: 600px;
   margin: 0 auto;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 `;
 
 export const About = styled.div`
@@ -21,17 +16,9 @@ export const About = styled.div`
     color: #fafafa;
   }
 
-  .description {
-    color: #eee;
-    margin-bottom: 20px;
-
-    b {
-      color: #fafafa;
-    }
-  }
-
   .resume {
     color: #888;
+    margin-top: 10px;
   }
 
   .separator {
@@ -43,6 +30,8 @@ export const About = styled.div`
 `;
 
 export const Social = styled.div`
+  margin-bottom: 40px;
+
   .email {
     color: #eee;
     text-decoration: none;
@@ -87,5 +76,15 @@ export const Social = styled.div`
         color: #24be87;
       }
     }
+  }
+`;
+
+export const Section = styled.div`
+  margin-bottom: 40px;
+
+  .title {
+    color: #eee;
+    font-size: 24px;
+    margin-bottom: 10px;
   }
 `;
