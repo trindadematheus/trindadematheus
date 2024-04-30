@@ -57,14 +57,6 @@ function Home() {
           </S.Social>
 
           <S.Section>
-            <h2 className="title">Feedback de uma cliente</h2>
-            <audio controls>
-              <source src="/feedback.ogg" type="audio/ogg" />
-              Your browser does not support the audio element.
-            </audio>
-          </S.Section>
-
-          <S.Section>
             <h2 className="title">Videos</h2>
             {videos.map((pod) => <Link title={pod.title} description={pod.description} href={pod.link} />)}
           </S.Section>
