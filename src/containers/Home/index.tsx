@@ -32,15 +32,6 @@ function Home() {
               <li>
                 <a
                   className="icon"
-                  href="https://twitter.com/trindadematheux"
-                  target="_blank"
-                >
-                  <FaTwitter />
-                </a>
-              </li>
-              <li>
-                <a
-                  className="icon"
                   href="https://github.com/trindadematheus"
                   target="_blank"
                 >
