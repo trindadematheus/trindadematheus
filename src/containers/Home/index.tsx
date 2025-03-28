@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaTwitter, FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaEnvelope, FaGithub } from "react-icons/fa";
 
 import * as S from "./styles";
 import Link from "../../components/Link";
@@ -13,7 +13,11 @@ function Home() {
           <S.About>
             <h1 className="name">Hi, I'm Matheus Trindade 👋</h1>
 
-            <p className="resume">Frontend developer with amost 5 years of experience. Working with React.js, React Native and Next.js. I'm currently working on Compass UOL.</p>
+            <p className="resume">
+              Frontend developer with amost 5 years of experience. Working with
+              React.js, React Native and Next.js. I'm currently working on
+              Compass UOL.
+            </p>
 
             <div className="separator" />
           </S.About>
@@ -49,12 +53,24 @@ function Home() {
 
           <S.Section>
             <h2 className="title">Videos</h2>
-            {videos.map((pod) => <Link title={pod.title} description={pod.description} href={pod.link} />)}
+            {videos.map((pod) => (
+              <Link
+                title={pod.title}
+                description={pod.description}
+                href={pod.link}
+              />
+            ))}
           </S.Section>
 
           <S.Section>
             <h2 className="title">Podcast</h2>
-            {podcasts.map((pod) => <Link title={pod.title} description={pod.description} href={pod.link} />)}
+            {podcasts.map((pod) => (
+              <Link
+                title={pod.title}
+                description={pod.description}
+                href={pod.link}
+              />
+            ))}
           </S.Section>
         </S.Container>
       </S.Wrapper>
